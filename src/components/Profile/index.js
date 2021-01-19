@@ -1,11 +1,9 @@
 import React from "react"
-import Navbar from "../Navbar"
 import Footer from "../Footer"
 
 function Profile() {
     return (
         <div>
-            <Navbar />
             <div className="container" >
                 <div className="row">
                     <div className="col-sm-12" id="content">
