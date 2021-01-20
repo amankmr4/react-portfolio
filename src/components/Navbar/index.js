@@ -7,8 +7,9 @@ import {
 } from "react-router-dom";
 
 import Footer from "../Footer"
-import NavbarDummy from "../NavbarDummy"
+import ProjectCards from "../ProjectCards"
 import Profile from "../Profile"
+
 
 // now you have to create pages and import them here
 
@@ -44,7 +45,7 @@ function Navbar() {
                     <Footer />
                 </Route>
                 <Route path="/about">
-                    <NavbarDummy />
+                    <ProjectCards />
                 </Route>
                 <Route path="/portfolio">
                     <Profile />
